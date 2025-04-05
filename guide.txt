@@ -1,0 +1,17 @@
+Install these files seperately
+
+1.Tesseract OCR
+Download from: https://github.com/UB-Mannheim/tesseract/wiki
+Add the install path (e.g., C:\Program Files\Tesseract-OCR) to your system environment PATH.
+
+2.Poppler (for pdf2image to work)
+Windows: Download from: https://github.com/oschwartz10612/poppler-windows/releases
+Add the bin/ path to your system environment PATH.
+
+get into the formocr folder in terminal and type the below in terminal and run
+pip install -r /path/to/requirements.txt
+
+Open 2 terminals one terminal should be inside the formocr folder and the other in frontend folder
+in formocr terminal type: python main.python
+in frontend terminal type: npm run dev
+should run both terminal at the same time!!!
